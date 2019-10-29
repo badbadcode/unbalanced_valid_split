@@ -101,8 +101,7 @@ def Compare(X_train,y_train,X_test,y_test,plan):
 
     
 #1:数据处理： 切分train和test（8：2）
-os.chdir(r'C:\Users\Mingyue\Desktop\Codes\unbalance')
-data = pd.read_csv('HTRU_2.csv',header = None)
+data = pd.read_csv('data/HTRU_2.csv',header = None)
 
 #给数据命【列名】
 data.columns = ['X1','X2','X3','X4','X5','X6','X7','X8','y']
