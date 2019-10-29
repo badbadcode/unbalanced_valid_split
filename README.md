@@ -15,10 +15,10 @@
 ## 2.【实验分析】
 我简单做了实验, 对一个不平衡数据(12953:1365)实现逻辑回归分类模型,先切分80%train和20%test。<br>
 Train:【对train的切分和过采样方式，按照4种方案进行】<br>
-  train-train: 训练模型的数据集<br>
-  train-dev：留出法调参的验证集 (4种方案的验证集数据量均相同,但因为数据不平衡，不敢设太大)<br>
+>train-train: 训练模型的数据集<br>
+>train-dev：留出法调参的验证集 (4种方案的验证集数据量均相同,但因为数据不平衡，不敢设太大)<br>
 test：<br>
-  test：测试数据<br>
+>test：测试数据<br>
 实验结果在同一个test上的accuracy表现如下：<br>
 
 ![result](https://github.com/badbadcode/unbalanced_valid_split/blob/master/img/result.png)
