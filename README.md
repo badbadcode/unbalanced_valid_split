@@ -1,6 +1,6 @@
 # unbalanced_valid_split
 ## 1.【问题描述】
-    非平衡数据的分类问题，假设我使用过采样解决不平衡问题，并从训练集切分出验证集进行调参，那么可选用的方案：<br>
+    非平衡数据的分类问题，假设我使用过采样解决不平衡问题，并从训练集切分出验证集进行调参，那么可选用的方案:
 （0）.不进行过采样，将原始训练集切分成train-train,train-dev,在train-train上训练，在train-dev上调参;<br>
 （1）.从原始训练集分出来train-dev（train-dev的标签比例1：1），对剩余的训练集数据进行过采样train-train，再训练;<br>
 （2）.从原始训练集分层抽样，抽出train-dev（train-dev同原始fei'ping'heng'shi标签比例），对剩余的训练集数据进行过采样train-train，再训练;<br>
