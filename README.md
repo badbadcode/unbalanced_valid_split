@@ -20,6 +20,7 @@ Train:【对train的切分和过采样方式，按照4种方案进行】
 test：
   test：测试数据
 实验结果在同一个test上的accuracy表现如下：
+![result](https://github.com/badbadcode/unbalanced_valid_split/blob/master/img/result.png)
 
 ##3.【待解决问题】
    三种过采样的切分方案，看似效果差距不大，如果不是数据个例的原因，分析这个结果：
